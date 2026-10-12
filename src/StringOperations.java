@@ -5,7 +5,7 @@ public class StringOperations {
         String reveserdString = "";
 
         int length = text.length();
-        for (int index = 0; index < length; index++) {
+        for (int index = 0; index < length ; index++) {
             reveserdString = text.charAt(index) + reveserdString;
         }
 
